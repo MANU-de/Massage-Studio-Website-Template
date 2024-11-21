@@ -1,0 +1,120 @@
+<!--This template includes:
+
+A responsive navigation bar with smooth scrolling
+A hero section with a call-to-action button
+Services section with cards
+About section with image and text
+Contact form with styling
+Footer with business hours and social links
+Mobile-friendly design with a hamburger menu
+Smooth animations and transitions
+Professional color scheme and typography
+The website is fully responsive and includes interactive elements like form validation and smooth scrolling.
+ The design focuses on creating a calm and professional atmosphere suitable for a massage studio.
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Serenity Massage Studio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Serenity</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <section id="home" class="hero">
+            <h1>Welcome to Serenity</h1>
+            <p>Experience the ultimate relaxation</p>
+            <a href="#services" class="cta-button">Book Now</a>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Swedish Massage</h3>
+                    <p>60 min - $80</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hands"></i>
+                    <h3>Deep Tissue</h3>
+                    <p>60 min - $90</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hot-tub"></i>
+                    <h3>Hot Stone</h3>
+                    <p>90 min - $120</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At Serenity, we believe in the healing power of touch. Our experienced therapists are dedicated to helping you achieve complete relaxation and wellness.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Screenshot 2024-11-21 8.16.16 AM.png" alt="massage studio employees">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Relaxation Street</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@serenity.com</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon-Fri: 9am - 8pm</p>
+                    <p>Sat-Sun: 10am - 6pm</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Serenity Massage Studio. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
